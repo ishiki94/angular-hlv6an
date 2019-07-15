@@ -575,7 +575,7 @@ hr {
 .sidebar[data-background-color="white"] .logo,
 .off-canvas-sidebar .logo,
 .off-canvas-sidebar[data-background-color="white"] .logo {
-    border-bottom: 1px solid rgba(102, 97, 91, 0.3);
+    border-bottom: 1px solid rgb(43, 53, 60);
 }
 
 .sidebar .logo p,
