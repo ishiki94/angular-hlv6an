@@ -2395,8 +2395,12 @@ textarea.form-control {
 }
 
 .navbar .navbar-nav>li>a p {
-  font-weight: 300;
-  font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 1px;
+    color: #fff;
 }
 
 .navbar .navbar-nav>li>a i {
