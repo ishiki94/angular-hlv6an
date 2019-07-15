@@ -680,6 +680,7 @@ hr {
 .main-panel>.content {
     padding: 30px 15px;
     min-height: calc(100% - 123px);
+    background-color: #eef3f7;
 }
 
 .main-panel>.footer {
@@ -2418,7 +2419,7 @@ textarea.form-control {
 }
 
 .navbar-default {
-    background-color: #fff;
+    background-color: #24272d;
     border-bottom: 1px solid #24272d;
 }
 
@@ -4925,7 +4926,6 @@ Copyright (c) 2015 Daniel Eden
     .fixed-plugin {
         top: 120px;
     }
-
 }
 
 @media (max-width: 991px) {
