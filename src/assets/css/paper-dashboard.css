@@ -23,6 +23,21 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+.ct-blue {
+  stroke: #7A9E9F !important; }
+
+.ct-azure {
+  stroke: #68B3C8 !important; }
+
+.ct-green {
+  stroke: #42AC35 !important; }
+
+.ct-orange {
+  stroke: #F3BB45 !important; }
+
+.ct-red {
+  stroke: #DD0330 !important; }
+
 h1,
 .h1,
 h2,
@@ -533,6 +548,7 @@ hr {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .sidebar .nav i,
@@ -680,7 +696,7 @@ hr {
 .main-panel>.content {
     padding: 30px 15px;
     min-height: calc(100% - 123px);
-    background-color: #eef3f7;
+    background-color: #24272d;
 }
 
 .main-panel>.footer {
@@ -2933,12 +2949,14 @@ Copyright (c) 2015 Daniel Eden
 
 .card {
     border-radius: 6px;
-    /*  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);*/
-    background-color: #FFFFFF;
-    color: #323E48;
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
+    background: #323e48;
+    border: 0;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
 }
 
 .card .image {
@@ -2998,6 +3016,7 @@ Copyright (c) 2015 Daniel Eden
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .card .avatar {
