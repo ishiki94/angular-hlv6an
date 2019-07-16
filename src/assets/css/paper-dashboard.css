@@ -685,7 +685,7 @@ hr {
 }
 
 .main-panel {
-    background-color: #f4f3ef;
+     background-color: #24272d;
     position: relative;
     z-index: 2;
     float: right;
@@ -1798,16 +1798,20 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .form-control {
-    background-color: #fffcf5;
-    border: medium none;
+   
     border-radius: 4px;
     color: #66615b;
     font-size: 14px;
     transition: background-color 0.3s ease 0s;
     padding: 7px 18px;
     height: 40px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #cad1d7;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .form-control:focus {
@@ -3012,7 +3016,7 @@ Copyright (c) 2015 Daniel Eden
 
 .card .title {
     margin: 0;
-    color: #252422;
+    color: #fff;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -3030,6 +3034,7 @@ Copyright (c) 2015 Daniel Eden
 .card .footer {
     padding: 0;
     line-height: 30px;
+    background: transparent;
 }
 
 .card .footer .legend {
