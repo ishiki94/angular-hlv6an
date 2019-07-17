@@ -2096,6 +2096,7 @@ textarea.form-control {
 .table>thead>tr>td,
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
+    font-size: 18px;
     padding: 12px;
     vertical-align: middle;
     color: #fff;
