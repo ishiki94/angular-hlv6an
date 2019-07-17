@@ -218,7 +218,7 @@ strong {
 }
 
 .icon-warning {
-    color: #36aba7;
+    color: #42AC35;
 }
 
 .icon-danger {
@@ -242,7 +242,7 @@ strong {
 
 .chart-legend .text-warning,
 .chart-legend .text-warning:hover {
-    color: #36aba7;
+    color: #42AC35;
 }
 
 .chart-legend .text-danger,
@@ -674,7 +674,7 @@ hr {
 
 .sidebar[data-active-color="warning"] .nav li.active>a,
 .off-canvas-sidebar[data-active-color="warning"] .nav li.active>a {
-    color: #36aba7;
+    color: #42AC35;
     opacity: 1;
 }
 
@@ -1318,8 +1318,8 @@ fieldset[disabled] .btn-info.active {
 
 .navbar .navbar-nav>li>a.btn-warning,
 .btn-warning {
-    border-color: #36aba7;
-    color: #36aba7;
+    border-color: #42AC35;
+    color: #42AC35;
 }
 
 .navbar .navbar-nav>li>a.btn-warning:hover,
@@ -1332,9 +1332,9 @@ fieldset[disabled] .btn-info.active {
 .btn-warning:active,
 .btn-warning.active,
 .open>.btn-warning.dropdown-toggle {
-    background-color: #36aba7;
+    background-color: #42AC35;
     color: rgba(255, 255, 255, 0.7);
-    border-color: #36aba7;
+    border-color: #42AC35;
 }
 
 .navbar .navbar-nav>li>a.btn-warning:hover .caret,
@@ -1399,13 +1399,13 @@ fieldset[disabled] .btn-warning.focus,
 fieldset[disabled] .btn-warning:active,
 fieldset[disabled] .btn-warning.active {
     background-color: transparent;
-    border-color: #36aba7;
+    border-color: #42AC35;
 }
 
 .navbar .navbar-nav>li>a.btn-warning.btn-fill,
 .btn-warning.btn-fill {
     color: #FFFFFF;
-    background-color: #36aba7;
+    background-color: #42AC35;
     opacity: 1;
     filter: alpha(opacity=100);
 }
@@ -1451,7 +1451,7 @@ fieldset[disabled] .btn-warning.active {
 
 .navbar .navbar-nav>li>a.btn-warning .caret,
 .btn-warning .caret {
-    border-top-color: #36aba7;
+    border-top-color: #42AC35;
 }
 
 .navbar .navbar-nav>li>a.btn-danger,
@@ -1798,13 +1798,16 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .form-control {
-   
+    background-color: #fffcf5;
+    border: medium none;
     border-radius: 4px;
     color: #66615b;
     font-size: 14px;
     transition: background-color 0.3s ease 0s;
     padding: 7px 18px;
     height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   color: rgba(255, 255, 255, 0.8);
   background-color: transparent;
   background-clip: padding-box;
@@ -2935,7 +2938,7 @@ Copyright (c) 2015 Daniel Eden
 
 .dropdown-menu.dropdown-warning>li>a:hover,
 .dropdown-menu.dropdown-warning>li>a:focus {
-    background-color: #36aba7;
+    background-color: #42AC35;
 }
 
 .dropdown-menu.dropdown-danger>li>a:hover,
@@ -2956,10 +2959,11 @@ Copyright (c) 2015 Daniel Eden
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
-    background: #323e48;
+    background: transparent;
     border: 0;
     position: relative;
     width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
 }
 
@@ -3042,6 +3046,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .card .footer hr {
+    opacity: 0.2;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -3059,6 +3064,7 @@ Copyright (c) 2015 Daniel Eden
 
 .card .footer div {
     display: inline-block;
+    color: #fff;
 }
 
 .card .author {
@@ -3410,12 +3416,12 @@ Copyright (c) 2015 Daniel Eden
 .ct-series-b .ct-line,
 .ct-series-b .ct-bar,
 .ct-series-b .ct-slice-donut {
-    stroke: #36aba7;
+    stroke: #42AC35;
 }
 
 .ct-series-b .ct-slice-pie,
 .ct-series-b .ct-area {
-    fill: #36aba7;
+    fill: #42AC35;
 }
 
 .ct-series-c .ct-point,
@@ -4803,7 +4809,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .fixed-plugin .badge-warning {
-    background-color: #36aba7;
+    background-color: #42AC35;
 }
 
 .fixed-plugin .badge-danger {
