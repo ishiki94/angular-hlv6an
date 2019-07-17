@@ -886,6 +886,8 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.active {
 .navbar .navbar-nav>li>a.btn:hover,
 .navbar .navbar-nav>li>a.btn:focus {
     outline: 0 !important;
+    background-color: #323e47;
+    border-color: #323e47;
 }
 
 .btn:active,
@@ -3166,7 +3168,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .card ul.team-members li:not(:last-child) {
-    border-bottom: 1px solid #F1EAE0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 }
 
 .card-user .image {
