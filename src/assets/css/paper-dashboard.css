@@ -2996,6 +2996,8 @@ Copyright (c) 2015 Daniel Eden
 .card .card-header .card-category{
     color: #fff;
     font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
 }
 
 .card-title{
