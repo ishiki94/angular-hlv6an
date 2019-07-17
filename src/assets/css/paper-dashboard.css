@@ -24,7 +24,7 @@ body {
 }
 
 .ct-blue {
-  stroke: #7A9E9F !important; }
+  stroke: #41a535 !important; }
 
 .ct-azure {
   stroke: #68B3C8 !important; }
@@ -206,7 +206,7 @@ strong {
 }
 
 .icon-primary {
-    color: #7A9E9F;
+    color: #41a535;
 }
 
 .icon-info {
@@ -227,7 +227,7 @@ strong {
 
 .chart-legend .text-primary,
 .chart-legend .text-primary:hover {
-    color: #7A9E9F;
+    color: #41a535;
 }
 
 .chart-legend .text-info,
@@ -513,7 +513,7 @@ hr {
 
 .sidebar .nav li.active>a,
 .off-canvas-sidebar .nav li.active>a {
-    color: #7A9E9F;
+    color: #41a535;
     opacity: 1;
 }
 
@@ -531,6 +531,7 @@ hr {
 
 .sidebar .nav li.active>a:after,
 .off-canvas-sidebar .nav li.active>a:after {
+    display: none;
     border-right: 17px solid #42AC35;
     border-top: 17px solid transparent;
     border-bottom: 17px solid transparent;
@@ -656,7 +657,7 @@ hr {
 
 .sidebar[data-active-color="primary"] .nav li.active>a,
 .off-canvas-sidebar[data-active-color="primary"] .nav li.active>a {
-    color: #7A9E9F;
+    color: #41a535;
     opacity: 1;
 }
 
@@ -903,8 +904,8 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.active {
 
 .navbar .navbar-nav>li>a.btn-primary,
 .btn-primary {
-    border-color: #7A9E9F;
-    color: #7A9E9F;
+    border-color: #41a535;
+    color: #41a535;
 }
 
 .navbar .navbar-nav>li>a.btn-primary:hover,
@@ -917,9 +918,9 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.active {
 .btn-primary:active,
 .btn-primary.active,
 .open>.btn-primary.dropdown-toggle {
-    background-color: #7A9E9F;
+    background-color: #41a535;
     color: rgba(255, 255, 255, 0.7);
-    border-color: #7A9E9F;
+    border-color: #41a535;
 }
 
 .navbar .navbar-nav>li>a.btn-primary:hover .caret,
@@ -984,13 +985,13 @@ fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
     background-color: transparent;
-    border-color: #7A9E9F;
+    border-color: #41a535;
 }
 
 .navbar .navbar-nav>li>a.btn-primary.btn-fill,
 .btn-primary.btn-fill {
     color: #FFFFFF;
-    background-color: #7A9E9F;
+    background-color: #41a535;
     opacity: 1;
     filter: alpha(opacity=100);
 }
@@ -1036,7 +1037,7 @@ fieldset[disabled] .btn-primary.active {
 
 .navbar .navbar-nav>li>a.btn-primary .caret,
 .btn-primary .caret {
-    border-top-color: #7A9E9F;
+    border-top-color: #41a535;
 }
 
 .navbar .navbar-nav>li>a.btn-success,
@@ -2933,7 +2934,7 @@ Copyright (c) 2015 Daniel Eden
 
 .dropdown-menu.dropdown-primary>li>a:hover,
 .dropdown-menu.dropdown-primary>li>a:focus {
-    background-color: #7A9E9F;
+    background-color: #41a535;
 }
 
 .dropdown-menu.dropdown-info>li>a:hover,
@@ -3032,7 +3033,7 @@ Copyright (c) 2015 Daniel Eden
 .card label {
     font-size: 14px;
     font-weight: 400;
-    color: #9A9A9A;
+    color: #42AC35;
     margin-bottom: 0px;
 }
 
@@ -3483,12 +3484,12 @@ Copyright (c) 2015 Daniel Eden
 .ct-series-e .ct-line,
 .ct-series-e .ct-bar,
 .ct-series-e .ct-slice-donut {
-    stroke: #7A9E9F;
+    stroke: #41a535;
 }
 
 .ct-series-e .ct-slice-pie,
 .ct-series-e .ct-area {
-    fill: #7A9E9F;
+    fill: #41a535;
 }
 
 .ct-series-f .ct-point,
@@ -4828,7 +4829,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .fixed-plugin .badge-primary {
-    background-color: #7A9E9F;
+    background-color: #41a535;
 }
 
 .fixed-plugin .badge-info {
