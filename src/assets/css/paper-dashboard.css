@@ -2096,7 +2096,7 @@ textarea.form-control {
 .table>thead>tr>td,
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
-    font-size: 18px;
+    font-size: 14px;
     padding: 12px;
     vertical-align: middle;
     color: #fff;
@@ -2988,9 +2988,20 @@ Copyright (c) 2015 Daniel Eden
     transform-style: preserve-3d;
 }
 
-.card-title{
-    color: #fff;
+.card .card-header{
+    padding: 15px 15px 0;
+    border: 0;
+}
 
+.card .card-header .card-category{
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-title{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #fff;
 }
 
 .card .image img {
