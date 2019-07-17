@@ -174,7 +174,7 @@ blockquote small {
 
 .text-primary,
 .text-primary:hover {
-    color: #427C89;
+    color: #228815;
 }
 
 .text-info,
@@ -1005,9 +1005,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-fill:active,
 .btn-primary.btn-fill.active,
 .open>.btn-primary.btn-fill.dropdown-toggle {
-    background-color: #427C89;
+    background-color: #228815;
     color: #FFFFFF;
-    border-color: #427C89;
+    border-color: #228815;
 }
 
 .navbar .navbar-nav>li>a.btn-primary.btn-fill .caret,
@@ -1026,7 +1026,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-simple.active,
 .open>.btn-primary.btn-simple.dropdown-toggle {
     background-color: transparent;
-    color: #427C89;
+    color: #228815;
 }
 
 .navbar .navbar-nav>li>a.btn-primary.btn-simple .caret,
@@ -2580,7 +2580,7 @@ textarea.form-control {
     background-color: #fff;
 }
 
-footer{
+footer.footer{
     background-color: #25272e;
 }
 
@@ -2980,6 +2980,11 @@ Copyright (c) 2015 Daniel Eden
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+}
+
+.card-title{
+    color: #fff;
+
 }
 
 .card .image img {
