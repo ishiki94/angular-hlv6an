@@ -56,6 +56,7 @@ p,
 a,
 .td-name,
 td {
+    color: #fff;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
@@ -70,22 +71,26 @@ h3,
 .h3,
 h4,
 .h4 {
+    color: #fff;
     font-weight: 400;
     margin: 30px 0 15px;
 }
 
 h1,
 .h1 {
+    color: #fff;
     font-size: 3.2em;
 }
 
 h2,
 .h2 {
+    color: #fff;
     font-size: 2.6em;
 }
 
 h3,
 .h3 {
+    color: #fff;
     font-size: 1.825em;
     line-height: 1.4;
     margin: 20px 0 10px;
@@ -93,6 +98,7 @@ h3,
 
 h4,
 .h4 {
+    color: #fff;
     font-size: 1.5em;
     font-weight: 600;
     line-height: 1.2em;
@@ -100,6 +106,7 @@ h4,
 
 h5,
 .h5 {
+    color: #fff;
     font-size: 1.25em;
     font-weight: 400;
     line-height: 1.4em;
@@ -108,12 +115,14 @@ h5,
 
 h6,
 .h6 {
+    color: #fff;
     font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 p {
+    color: #fff;
     font-size: 16px;
     line-height: 1.4em;
 }
@@ -404,6 +413,7 @@ button:focus {
 }
 
 hr {
+    opacity: 0.2;
     border-color: #F1EAE0;
 }
 
@@ -1819,7 +1829,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .form-control:focus {
-    background-color: #FFFFFF;
+    background-color: #323e47;
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: 0 !important;
@@ -2966,6 +2976,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .card {
+    padding: 1em;
     border-radius: 6px;
     margin-bottom: 20px;
     position: relative;
