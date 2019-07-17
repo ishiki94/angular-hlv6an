@@ -2580,6 +2580,10 @@ textarea.form-control {
     background-color: #fff;
 }
 
+footer{
+    background-color: #25272e;
+}
+
 .footer nav ul {
     list-style: none;
     margin: 0;
@@ -3115,6 +3119,7 @@ Copyright (c) 2015 Daniel Eden
 .card .numbers {
     font-size: 2em;
     text-align: right;
+    color: #fff;
 }
 
 .card .numbers p {
@@ -3227,6 +3232,7 @@ Copyright (c) 2015 Daniel Eden
     color: rgba(0, 0, 0, 0.4);
     font-size: 0.9em;
     line-height: 1;
+    color: #fff;
 }
 
 .ct-chart-line .ct-label,
